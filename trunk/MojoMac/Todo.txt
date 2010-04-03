@@ -1,0 +1,16 @@
+General:
+
+- Add time remaining and file downloading rate to HTTPClient
+
+Specific:
+
+- Fix stupid autosizing when hiding/unhiding table columns
+- Full TLS support
+- When setting name of xmpp user, also set for bonjour (just in case)
+
+Clever Ideas:
+
+- Gnome style type-to-find matching in table view
+  When a row is selected in a table view, and the user starts typing, table view should draw
+  a transparent overlay of the characters the user has typed.
+  
