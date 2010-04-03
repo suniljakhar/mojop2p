@@ -1,0 +1,22 @@
+#summary Mojo is NOT GPL
+
+= Mojo Licensing =
+
+The source code for Mojo is NOT entirely under the GPL.  Here is the breakdown of the open source libraries Mojo uses and their licenses:
+
+*[http://code.google.com/p/cocoaasyncsocket/ CocoaAsyncSocket]* – In the public realm
+	TCP and UDP socket libraries
+*[http://code.google.com/p/cocoahttpserver/ CocoaHTTPServer]* – BSD license
+	HTTP embedded server
+*[http://code.google.com/p/xmppframework/ XMPPFramework]* – BSD license
+	Cocoa XMPP library
+*NAT Traversal* – GPL (commercial licenses available from Deusty LLC)	
+	NAT Traversal signaling and setup
+*[http://septicus.com/products/opensource/ SSCrypto]* – BSD license
+	Cocoa security library (OpenSSL wrapper)
+*[http://code.google.com/p/tcmportmapper/ PortMapper]* – MIT license
+	NAT-PMP & UPnP library
+*[http://sparkle.andymatuschak.org/ Sparkle]* – MIT License
+	Library for application updates
+
+*All Other Source Files* – BSD license
