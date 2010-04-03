@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dictionary SYSTEM "file://localhost/System/Library/DTDs/sdef.dtd">
+<dictionary title="Dictionary">
+	<suite name="Mojo Suite" code="Mojo">
+		<class name="app" code="capp" description="Mojo Application">
+			<cocoa class="MojoApp"/>
+			<property name="name" code="pnam" description="The name of the application." type="text" access="r"/>
+			<property name="frontmost" code="pisf" description="Is this the frontmost (active) application?" type="boolean" access="r">
+				<cocoa key="isActive"/>
+			</property>
+			<property name="version" code="vers" description="The version of the application." type="text" access="r"/>
+			<responds-to name="view library">
+				<cocoa method="scripterSaysViewLibrary:"/>
+			</responds-to>
+			<responds-to name="view preferences">
+				<cocoa method="scripterSaysViewPreferences:"/>
+			</responds-to>
+		</class>
+		<command name="view library" code="MojoVlib" description="Open the manual sync window for a particular iTunes library">
+			<direct-parameter description="The iTunes library ID of the library to view" type="text"/>
+		</command>
+		<command name="view preferences" code="MojoVprf" description="Open the preferences window for the Mojo app."/>
+	</suite>
+</dictionary>

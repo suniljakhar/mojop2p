@@ -1,0 +1,3 @@
+Just run genstrings *.m
+
+The different strings files have already been separated in code!
