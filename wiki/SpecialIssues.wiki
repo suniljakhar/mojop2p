@@ -1,0 +1,9 @@
+#summary List of special issues to consider.
+
+== XMPP & Bonjour ==
+
+One of the great things about Mojo is that it allows sharing over the local network (Bonjour) as well as over the Internet (XMPP).  It creates a single user friendly roster that merges these technologies for you.  Contrast this with iChat which uses separate windows for each protocol.  One important issue to keep in mind is that Mojo may discover the same user on both the local network and over the Internet.  For example, you are buddies with your roommate (i.e. she is in your xmpp roster), who is available via both Bonjour and XMPP.  When this occurs, Mojo should only display the user once in the roster.  Furthermore, Mojo should always connect to this user over the much faster LAN connection.
+
+== Multiple Online XMPP Resources Per User ==
+
+In XMPP, a single user (e.g. eric@mojo.com) can be signed online in multiple locations.  For example, I might be signed in at home and at work (e.g eric@mojo.com/home, eric@mojo.com/work).  In traditional chat, both resources would be coalesced into one single entity in the roster.  In Mojo, each resource is a separate library and should be treated as a separate entity.  In other words, I would show up in my buddies roster twice, once for each online library.
