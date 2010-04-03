@@ -29,10 +29,6 @@ Many users will likely want “secure” connections.  The standard for doing th
 
 The strength of Mojo is it provides a roster of users and a way to create direct peer-to-peer connections with those users.  It also provides a basis for file transfer once the connection is made.  Mojo does not and should not be limited to the current music sharing features that are currently implemented.  Mojo has the potential to be so much more.  Some areas that Mojo would easily extend to are photos, movies, and generic files.  Moving in this direction will require separating the file lists into individual xml files (i.e. music.xml, photos.xml, movies.xml).
 
-== Subscriptions ==
-
-Subscriptions are far behind curve within the application.  They don’t even support the full range of NAT Traversal techniques.  Subscriptions need some TLC.
-
 == Windows ==
 
 Windows is not the favorite operating system of the Mojo founders, therefore the Windows version needs some motivated passionate Windows developers to show it the love it deserves.
