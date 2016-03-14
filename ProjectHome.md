@@ -1,0 +1,1 @@
+Mojo is a Non-Anonymous peer-to-peer file sharing application. Mojo takes advantage of a number of open protocols (XMPP, HTTP) to allow direct connections between computers.
